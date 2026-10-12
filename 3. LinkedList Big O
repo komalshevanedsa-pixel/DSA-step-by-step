@@ -1,0 +1,7 @@
+LinkedList Big O
+1. Inserting at the end of LL means have to update tail with new node, no need of iteration so it will be O(1)
+2. Removing at the end of LL means have to update to last 2nd node for that we have to iterate over LL and the update tail
+  with that last 2nd node,  so it will be O(n)
+3. Inserting and Removing at the start of LL means have to update head to new node or next node, no need of iteration 
+  so it will be O(1)
+4. searching/finding by index, removing/ adding at the middle of LL means iteration required so it will be O(n)
