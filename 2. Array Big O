@@ -1,0 +1,8 @@
+Array Big O
+1. push and pop at the end of array means no reindexing requires so iteration so it will be o(1)
+2.shift, unshift means adding and removing at first location of array requires reindexing and that means
+  iteration of array so it will be O(n)
+3. in case of splice, where we have to add or remove at any place of array in that case we need reindexing and iteration so 
+  it will be O(n)
+4. if search by number then O(n)
+5. if search by index then O(1)
